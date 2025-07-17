@@ -6,8 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="programmin-algorithmn" />
+        <module name="student-scoring-system" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="programmin-algorithmn" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="programmin-algorithmn" options="-parameters" />
+      <module name="student-scoring-system" options="-parameters" />
+    </option>
   </component>
 </project>
